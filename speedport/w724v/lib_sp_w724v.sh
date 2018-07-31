@@ -12,6 +12,7 @@ function sp_w724v__jsonapi () {
 
   local COOKIE_JAR="${SP_COOKIEJAR:-$HOME/.cache/sp_w724v.cookies.txt}"
   >>"$COOKIE_JAR" || return $?
+  chmod 0600 -- "$COOKIE_JAR" || return $?
 
   local SP_HOST="${SP_HOSTNAME:-speedport.ip}"
   local WGET_BASICS=(
