@@ -1,0 +1,30 @@
+{ "name": "homerouter-util-pmb",
+  "version": "0.0.1",
+  "description": "Tools for dealing with \"home routers\", mostly the Speedport series.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/homerouter-util-pmb/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/homerouter-util-pmb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/homerouter-util-pmb/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "hru.js",
+  "scripts": { "test": "nodejs test/all.js" },
+  "directories": { "test": "test" },
+
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
